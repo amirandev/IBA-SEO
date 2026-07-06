@@ -1,0 +1,358 @@
+[
+  {
+    "oldString": "## **Slide 7: International & hreflang SEO**",
+    "newString": "## **Slide 7: საერთაშორისო და hreflang SEO**"
+  },
+  {
+    "oldString": "### **Why International SEO Matters:**",
+    "newString": "### **რატომ არის მნიშვნელოვანი საერთაშორისო SEO:**"
+  },
+  {
+    "oldString": "For multi-language e-commerce sites, search engines must know which language/region version to show in results. Without proper signals, users see the wrong language version or Google treats translations as duplicate content.",
+    "newString": "მრავალენოვანი e-commerce საიტებისთვის, საძიებო სისტემებმა უნდა იცოდნენ ენის/რეგიონის რომელი ვერსია აჩვენონ შედეგებში. სათანადო სიგნალების გარეშე, მომხმარებლები ხედავენ არასწორ ენობრივ ვერსიას ან Google თარგმანებს დუბლიკატ შინაარსად განმარტავს."
+  },
+  {
+    "oldString": "### **hreflang Implementation:**",
+    "newString": "### **hreflang იმპლემენტაცია:**"
+  },
+  {
+    "oldString": "<!-- ✅ Language targeting for Georgian & English -->",
+    "newString": "<!-- ✅ ენობრივი დამიზნება ქართულისა და ინგლისურისთვის -->"
+  },
+  {
+    "oldString": "<!-- ✅ Can also use HTTP headers or sitemaps -->",
+    "newString": "<!-- ✅ ასევე შესაძლებელია HTTP ჰედერების ან sitemap-ების გამოყენება -->"
+  },
+  {
+    "oldString": "### **hreflang Best Practices:**",
+    "newString": "### **hreflang საუკეთესო პრაქტიკა:**"
+  },
+  {
+    "oldString": "- ✅ Use **full absolute URLs** (not relative paths)",
+    "newString": "- ✅ გამოიყენეთ **სრული აბსოლუტური URL-ები** (არა ფარდობითი მისამართები)"
+  },
+  {
+    "oldString": "- ✅ Include **self-referencing** hreflang (page points to itself)",
+    "newString": "- ✅ ჩართეთ **თვითმიმართვადი** hreflang (გვერდი მიუთითებს საკუთარ თავზე)"
+  },
+  {
+    "oldString": "- ✅ Use **x-default** as the fallback (usually the primary language)",
+    "newString": "- ✅ გამოიყენეთ **x-default** როგორც სათადარიგო ვარიანტი (ჩვეულებრივ, ძირითადი ენა)"
+  },
+  {
+    "oldString": "- ✅ Use **ISO 639-1** language codes (`ka`, `en`, `de`)",
+    "newString": "- ✅ გამოიყენეთ **ISO 639-1** ენობრივი კოდები (`ka`, `en`, `de`)"
+  },
+  {
+    "oldString": "- ✅ Add region codes only when needed: `en-US`, `en-GB`, `ka-GE`",
+    "newString": "- ✅ დაამატეთ რეგიონის კოდები მხოლოდ საჭიროებისამებრ: `en-US`, `en-GB`, `ka-GE`"
+  },
+  {
+    "oldString": "- ⚠️ Never contradict hreflang and canonical tags",
+    "newString": "- ⚠️ არასოდეს დაარღვიოთ hreflang-ისა და canonical თეგების თანმიმდევრულობა"
+  },
+  {
+    "oldString": "### **Language Selector UX:**",
+    "newString": "### **ენის ამომრჩევის UX:**"
+  },
+  {
+    "oldString": "### **URL Structure Options:**",
+    "newString": "### **URL სტრუქტურის ვარიანტები:**"
+  },
+  {
+    "oldString": "| Strategy | Example | Pros | Cons |",
+    "newString": "| სტრატეგია | მაგალითი | დადებითი | უარყოფითი |"
+  },
+  {
+    "oldString": "| **Subdirectory** | `ltdmamu.ge/ka/` | Easy to manage, strong geo-signal | URL restructuring needed |",
+    "newString": "| **ქვედირექტორია** | `ltdmamu.ge/ka/` | მარტივი მართვა, ძლიერი გეო-სიგნალი | საჭიროა URL-ის რესტრუქტურიზაცია |"
+  },
+  {
+    "oldString": "| **Subdomain** | `ka.ltdmamu.ge` | Separate hosting possible | Weaker geo-targeting |",
+    "newString": "| **ქვედომენი** | `ka.ltdmamu.ge` | ცალკე ჰოსტინგი შესაძლებელია | სუსტი გეო-დამიზნება |"
+  },
+  {
+    "oldString": "| **ccTLD** | `ltdmamu.ge` vs `.com` | Strongest geo-signal | Expensive, harder to maintain |",
+    "newString": "| **ccTLD** | `ltdmamu.ge` vs `.com` | ყველაზე ძლიერი გეო-სიგნალი | ძვირი, რთული შენარჩუნება |"
+  },
+  {
+    "oldString": "### **Common Mistakes:**",
+    "newString": "### **გავრცელებული შეცდომები:**"
+  },
+  {
+    "oldString": "<!-- ❌ Missing return link (page A links to B, B doesn't link to A) -->",
+    "newString": "<!-- ❌ დაბრუნების ლინკის ნაკლებობა (გვერდი A მიუთითებს B-ზე, B არ მიუთითებს A-ზე) -->"
+  },
+  {
+    "oldString": "<!-- ✅ Always bidirectional -->",
+    "newString": "<!-- ✅ ყოველთვის ორმხრივი -->"
+  },
+  {
+    "oldString": "<!-- ❌ Using wrong language codes (use ISO 639-1, not country codes) -->",
+    "newString": "<!-- ❌ არასწორი ენობრივი კოდების გამოყენება (გამოიყენეთ ISO 639-1, არა ქვეყნის კოდები) -->"
+  },
+  {
+    "oldString": "<!-- ✅ Correct -->",
+    "newString": "<!-- ✅ სწორი -->"
+  },
+  {
+    "oldString": "### **Testing hreflang:**",
+    "newString": "### **hreflang-ის ტესტირება:**"
+  },
+  {
+    "oldString": "- **Google Search Console** - International targeting report",
+    "newString": "- **Google Search Console** - საერთაშორისო დამიზნების ანგარიში"
+  },
+  {
+    "oldString": "- **hreflang validator** - Third-party tools",
+    "newString": "- **hreflang ვალიდატორი** - მესამე მხარის ინსტრუმენტები"
+  },
+  {
+    "oldString": "- **Check with `curl`** - Verify response headers",
+    "newString": "- **შეამოწმეთ `curl`-ით** - გადაამოწმეთ პასუხის ჰედერები"
+  },
+  {
+    "oldString": "## **Slide 8: JSON-LD Structured Data**",
+    "newString": "## **Slide 8: JSON-LD სტრუქტურირებული მონაცემები**"
+  },
+  {
+    "oldString": "### **What is Structured Data?**",
+    "newString": "### **რა არის სტრუქტურირებული მონაცემები?**"
+  },
+  {
+    "oldString": "Structured data (Schema.org markup) helps search engines **understand your content** and display **rich snippets** in search results.",
+    "newString": "სტრუქტურირებული მონაცემები (Schema.org მარკაპი) ეხმარება საძიებო სისტემებს **გაიგონ თქვენი შინაარსი** და აჩვენონ **რიჩ სნიპეტები** ძიების შედეგებში."
+  },
+  {
+    "oldString": "### **Why JSON-LD?**",
+    "newString": "### **რატომ JSON-LD?**"
+  },
+  {
+    "oldString": "- ✅ **Google's recommended format**",
+    "newString": "- ✅ **Google-ის რეკომენდებული ფორმატი**"
+  },
+  {
+    "oldString": "- ✅ Easy to implement",
+    "newString": "- ✅ მარტივი იმპლემენტაცია"
+  },
+  {
+    "oldString": "- ✅ Doesn't affect HTML structure",
+    "newString": "- ✅ არ მოქმედებს HTML სტრუქტურაზე"
+  },
+  {
+    "oldString": "- ✅ Placed in `<head>` or before `</body>`",
+    "newString": "- ✅ განთავსდება `<head>`-ში ან `</body>`-მდე"
+  },
+  {
+    "oldString": "## **Slide 9: Organization Schema**",
+    "newString": "## **Slide 9: ორგანიზაციის Schema**"
+  },
+  {
+    "oldString": "**Benefits:**\n- Brand knowledge panel in search",
+    "newString": "**სარგებელი:**\n- Brand knowledge panel in search"
+  },
+  {
+    "oldString": "- Brand knowledge panel in search",
+    "newString": "- ბრენდის ცოდნის პანელი ძიებაში"
+  },
+  {
+    "oldString": "- Social profiles in search results",
+    "newString": "- სოციალური პროფილები ძიების შედეგებში"
+  },
+  {
+    "oldString": "- Enhanced trust signals",
+    "newString": "- გაძლიერებული ნდობის სიგნალები"
+  },
+  {
+    "oldString": "## **Slide 10: Product Schema (Complete Example)**",
+    "newString": "## **Slide 10: პროდუქტის Schema (სრული მაგალითი)**"
+  },
+  {
+    "oldString": "## **Slide 11: Review & Rating Schema**",
+    "newString": "## **Slide 11: მიმოხილვისა და რეიტინგის Schema**"
+  },
+  {
+    "oldString": "### **Individual Review:**",
+    "newString": "### **ინდივიდუალური მიმოხილვა:**"
+  },
+  {
+    "oldString": "### **Aggregate Rating (Multiple Reviews):**",
+    "newString": "### **აგრეგირებული რეიტინგი (მრავალჯერადი მიმოხილვა):**"
+  },
+  {
+    "oldString": "**Rich Snippet Benefits:**",
+    "newString": "**რიჩ სნიპეტის სარგებელი:**"
+  },
+  {
+    "oldString": "- ⭐ **Star ratings** in search results",
+    "newString": "- ⭐ **ვარსკვლავების რეიტინგი** ძიების შედეგებში"
+  },
+  {
+    "oldString": "- 📊 **Review count** displayed",
+    "newString": "- 📊 **მიმოხილვების რაოდენობა** ნაჩვენები"
+  },
+  {
+    "oldString": "- 💚 **Higher click-through rates** (up to 35% increase!)",
+    "newString": "- 💚 **უფრო მაღალი დაწკაპუნების მაჩვენებელი** (35%-მდე ზრდა!)"
+  },
+  {
+    "oldString": "- 🏆 **Trust signals** for users",
+    "newString": "- 🏆 **ნდობის სიგნალები** მომხმარებლებისთვის"
+  },
+  {
+    "oldString": "## **Slide 12: Breadcrumb Schema**",
+    "newString": "## **Slide 12: Breadcrumb Schema**"
+  },
+  {
+    "oldString": "**Benefits:**\n- Shows **navigation path** in search results",
+    "newString": "**სარგებელი:**\n- Shows **navigation path** in search results"
+  },
+  {
+    "oldString": "- Shows **navigation path** in search results",
+    "newString": "- აჩვენებს **ნავიგაციის გზას** ძიების შედეგებში"
+  },
+  {
+    "oldString": "- Improves **user experience**",
+    "newString": "- აუმჯობესებს **მომხმარებლის გამოცდილებას**"
+  },
+  {
+    "oldString": "- Helps search engines understand **site structure**",
+    "newString": "- ეხმარება საძიებო სისტემებს გაიგონ **საიტის სტრუქტურა**"
+  },
+  {
+    "oldString": "## **Slide 13: Local Business Schema**",
+    "newString": "## **Slide 13: ადგილობრივი ბიზნესის Schema**"
+  },
+  {
+    "oldString": "**Benefits:**\n- Appears in **Google Maps**",
+    "newString": "**სარგებელი:**\n- Appears in **Google Maps**"
+  },
+  {
+    "oldString": "- Appears in **Google Maps**",
+    "newString": "- ჩნდება **Google Maps**-ში"
+  },
+  {
+    "oldString": "- Shows **business hours** in search",
+    "newString": "- აჩვენებს **სამუშაო საათებს** ძიებაში"
+  },
+  {
+    "oldString": "- Displays **contact information** prominently",
+    "newString": "- აჩვენებს **საკონტაქტო ინფორმაციას** თვალსაჩინოდ"
+  },
+  {
+    "oldString": "- Improves **local SEO**",
+    "newString": "- აუმჯობესებს **ლოკალურ SEO-ს**"
+  },
+  {
+    "oldString": "## **Slide 14: Multiple Schemas with @graph**",
+    "newString": "## **Slide 14: მრავალჯერადი Schema @graph-ით**"
+  },
+  {
+    "oldString": "When you have multiple entities on one page, use `@graph`:",
+    "newString": "როდესაც გაქვთ მრავალჯერადი ერთეული ერთ გვერდზე, გამოიყენეთ `@graph`:"
+  },
+  {
+    "oldString": "## **Slide 15: Testing & Validation**",
+    "newString": "## **Slide 15: ტესტირება და ვალიდაცია**"
+  },
+  {
+    "oldString": "### **Tools to Test Your Structured Data:**",
+    "newString": "### **ინსტრუმენტები თქვენი სტრუქტურირებული მონაცემების ტესტირებისთვის:**"
+  },
+  {
+    "oldString": "   - Shows which rich snippets you qualify for",
+    "newString": "   - აჩვენებს, თუ რომელი რიჩ სნიპეტებისთვის ხართ კვალიფიცირებული"
+  },
+  {
+    "oldString": "   - Validates Schema.org markup",
+    "newString": "   - ამოწმებს Schema.org მარკაპს"
+  },
+  {
+    "oldString": "   - Monitor structured data errors",
+    "newString": "   - სტრუქტურირებული მონაცემების შეცდომების მონიტორინგი"
+  },
+  {
+    "oldString": "   - Track rich snippet performance",
+    "newString": "   - რიჩ სნიპეტების ეფექტიანობის თვალყურის დევნება"
+  },
+  {
+    "oldString": "### **Common Errors to Avoid:**",
+    "newString": "### **გავრცელებული შეცდომები, რომლებსაც უნდა მოერიდოთ:**"
+  },
+  {
+    "oldString": "// ❌ MISSING required fields",
+    "newString": "// ❌ აკლია საჭირო ველები"
+  },
+  {
+    "oldString": "  // Missing: offers, image, etc.",
+    "newString": "  // აკლია: offers, image და ა.შ."
+  },
+  {
+    "oldString": "// ❌ WRONG data types",
+    "newString": "// ❌ არასწორი მონაცემთა ტიპები"
+  },
+  {
+    "oldString": "  \"price\": \"25.99\",  // Should be number, not string",
+    "newString": "  \"price\": \"25.99\",  // უნდა იყოს რიცხვი, არა სტრიქონი"
+  },
+  {
+    "oldString": "// ❌ INVALID URLs",
+    "newString": "// ❌ არასწორი URL-ები"
+  },
+  {
+    "oldString": "  \"image\": \"image.jpg\"  // Should be full URL",
+    "newString": "  \"image\": \"image.jpg\"  // უნდა იყოს სრული URL"
+  },
+  {
+    "oldString": "// ✅ CORRECT",
+    "newString": "// ✅ სწორი"
+  },
+  {
+    "oldString": "## **Slide 16: Performance & SEO Best Practices**",
+    "newString": "## **Slide 16: შესრულებისა და SEO-ს საუკეთესო პრაქტიკა**"
+  },
+  {
+    "oldString": "### **Technical SEO for Frontend Developers:**",
+    "newString": "### **ტექნიკური SEO ფრონტენდ დეველოპერებისთვის:**"
+  },
+  {
+    "oldString": "**1. Page Speed:**",
+    "newString": "**1. გვერდის სიჩქარე:**"
+  },
+  {
+    "oldString": "<!-- Optimize images -->",
+    "newString": "<!-- გამოსახულებების ოპტიმიზაცია -->"
+  },
+  {
+    "oldString": "<!-- Preload critical resources -->",
+    "newString": "<!-- კრიტიკული რესურსების წინასწარ ჩატვირთვა -->"
+  },
+  {
+    "oldString": "<!-- Minify CSS/JS -->",
+    "newString": "<!-- CSS/JS-ის მინიფიკაცია -->"
+  },
+  {
+    "oldString": "**2. Mobile-First:**",
+    "newString": "**2. მობილურ-პირველი:**"
+  },
+  {
+    "oldString": "<!-- Responsive design is a ranking factor -->",
+    "newString": "<!-- რესპონსივ დიზაინი არის რანჟირების ფაქტორი -->"
+  },
+  {
+    "oldString": "**3. Semantic HTML:**",
+    "newString": "**3. სემანტიკური HTML:**"
+  },
+  {
+    "oldString": "**4. Meta Tags:**",
+    "newString": "**4. Meta თეგები:**"
+  },
+  {
+    "oldString": "  <!-- Open Graph for social sharing -->",
+    "newString": "  <!-- Open Graph სოციალური გაზიარებისთვის -->"
+  },
+  {
+    "oldString": "  <!-- Canonical URL -->",
+    "newString": "  <!-- Canonical URL -->"
+  }
+]
