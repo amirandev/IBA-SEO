@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Electronics",
+    "slug": "electronics",
+    "description": "Discover the latest electronics gadgets and devices — from laptops and smartphones to headphones and smartwatches. Top brands, best prices.",
+    "keywords": "electronics, gadgets, tech, laptops, smartphones, headphones, smartwatches, computers",
+    "order": 1,
+    "subcategories": [
+      {
+        "id": 101,
+        "name": "Laptops",
+        "slug": "laptops",
+        "description": "Shop high-performance laptops for work, gaming, and everyday use. Lightweight ultrabooks, powerful gaming laptops, and professional workstations.",
+        "keywords": "laptops, notebooks, ultrabooks, gaming laptops, macbook, thinkpad, dell xps",
+        "order": 1
+      },
+      {
+        "id": 102,
+        "name": "Smartphones",
+        "slug": "smartphones",
+        "description": "Explore the newest smartphones with cutting-edge cameras, powerful processors, and stunning displays. Apple, Samsung, Google, and more.",
+        "keywords": "smartphones, mobile phones, iphone, samsung galaxy, google pixel, android, ios",
+        "order": 2
+      },
+      {
+        "id": 103,
+        "name": "Headphones",
+        "slug": "headphones",
+        "description": "Find your perfect sound with our collection of wireless earbuds, over-ear headphones, noise-cancelling headsets, and premium audio gear.",
+        "keywords": "headphones, earbuds, wireless earphones, noise cancelling, audio, sony, bose, airpods",
+        "order": 3
+      },
+      {
+        "id": 104,
+        "name": "Smartwatches",
+        "slug": "smartwatches",
+        "description": "Stay connected and track your fitness with the latest smartwatches. Apple Watch, Samsung Galaxy Watch, Fitbit, and Garmin.",
+        "keywords": "smartwatches, wearable tech, fitness tracker, apple watch, galaxy watch, garmin",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Clothing",
+    "slug": "clothing",
+    "description": "Upgrade your wardrobe with trendy and timeless fashion. From casual streetwear to formal attire, find clothes that express your style.",
+    "keywords": "clothing, fashion, apparel, shirts, pants, dresses, streetwear, casual, formal",
+    "order": 2,
+    "subcategories": [
+      {
+        "id": 201,
+        "name": "Men's Clothing",
+        "slug": "mens-clothing",
+        "description": "Shop the latest men's fashion — stylish shirts, comfortable jeans, premium suits, casual jackets, and accessories for every occasion.",
+        "keywords": "men clothing, men fashion, mens shirts, mens jeans, mens suits, mens jackets, casual wear",
+        "order": 1
+      },
+      {
+        "id": 202,
+        "name": "Women's Clothing",
+        "slug": "womens-clothing",
+        "description": "Discover women's fashion trends — elegant dresses, chic tops, comfortable leggings, stylish outerwear, and must-have accessories.",
+        "keywords": "women clothing, women fashion, womens dresses, womens tops, womens leggings, womens jackets",
+        "order": 2
+      },
+      {
+        "id": 203,
+        "name": "Shoes",
+        "slug": "shoes",
+        "description": "Walk in style with our footwear collection. Sneakers, boots, sandals, formal shoes, and athletic footwear from top brands.",
+        "keywords": "shoes, sneakers, boots, sandals, formal shoes, athletic footwear, nike, adidas",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Home & Garden",
+    "slug": "home-garden",
+    "description": "Transform your living space with our home and garden collection. Furniture, decor, kitchen essentials, and outdoor gear to make your house a home.",
+    "keywords": "home, garden, furniture, decor, kitchen, outdoor, living room, bedroom, gardening",
+    "order": 3,
+    "subcategories": [
+      {
+        "id": 301,
+        "name": "Furniture",
+        "slug": "furniture",
+        "description": "Find beautiful and functional furniture for every room. Sofas, beds, tables, chairs, shelves, and storage solutions for modern living.",
+        "keywords": "furniture, sofa, bed, table, chair, shelf, cabinet, living room furniture, bedroom furniture",
+        "order": 1
+      },
+      {
+        "id": 302,
+        "name": "Kitchen",
+        "slug": "kitchen",
+        "description": "Equip your kitchen with premium cookware, appliances, utensils, and storage. Everything you need to cook, bake, and entertain in style.",
+        "keywords": "kitchen, cookware, kitchen appliances, utensils, bakeware, kitchen gadgets, cookware set",
+        "order": 2
+      },
+      {
+        "id": 303,
+        "name": "Decor",
+        "slug": "decor",
+        "description": "Add personality to your space with home decor. Wall art, lighting, rugs, cushions, vases, and decorative accents for every style.",
+        "keywords": "home decor, wall art, lighting, rugs, cushions, vases, decorative accessories, interior design",
+        "order": 3
+      },
+      {
+        "id": 304,
+        "name": "Garden & Outdoor",
+        "slug": "garden-outdoor",
+        "description": "Create your perfect outdoor oasis. Gardening tools, plants, outdoor furniture, grills, lighting, and everything for your backyard.",
+        "keywords": "garden, outdoor, gardening tools, plants, outdoor furniture, grill, patio, backyard",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sports & Outdoors",
+    "slug": "sports-outdoors",
+    "description": "Gear up for adventure with sports and outdoor equipment. Fitness, camping, cycling, hiking, and team sports gear for all levels.",
+    "keywords": "sports, outdoors, fitness, camping, hiking, cycling, exercise, workout, sports equipment",
+    "order": 4,
+    "subcategories": [
+      {
+        "id": 401,
+        "name": "Fitness & Exercise",
+        "slug": "fitness-exercise",
+        "description": "Achieve your fitness goals with premium exercise equipment. Dumbbells, yoga mats, resistance bands, treadmills, and home gym essentials.",
+        "keywords": "fitness, exercise, gym equipment, dumbbells, yoga mat, treadmill, home gym, workout",
+        "order": 1
+      },
+      {
+        "id": 402,
+        "name": "Camping & Hiking",
+        "slug": "camping-hiking",
+        "description": "Explore the great outdoors with reliable camping and hiking gear. Tents, sleeping bags, backpacks, hiking boots, and survival equipment.",
+        "keywords": "camping, hiking, tent, sleeping bag, backpack, hiking boots, outdoor gear, survival",
+        "order": 2
+      },
+      {
+        "id": 403,
+        "name": "Cycling",
+        "slug": "cycling",
+        "description": "Ride in comfort and style with our cycling collection. Bikes, helmets, accessories, cycling apparel, and maintenance tools.",
+        "keywords": "cycling, bikes, bicycle, helmet, cycling accessories, mountain bike, road bike, ebike",
+        "order": 3
+      }
+    ]
+  }
+]
