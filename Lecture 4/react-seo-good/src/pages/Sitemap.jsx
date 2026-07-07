@@ -1,14 +1,9 @@
 import { Link } from 'react-router-dom';
 import Seo from '../components/Seo';
+import categories from '../data/categories.json';
+import products from '../data/products.json';
 
 export default function Sitemap() {
-  const categories = [
-    { name: 'Electronics', slug: 'electronics', subcategories: ['macbook-pro-16-m3-max', 'iphone-16-pro-max', 'sony-wh-1000xm6', 'airpods-pro-3', 'dell-xps-15-oled', 'google-pixel-10-pro'] },
-    { name: 'Clothing', slug: 'clothing', subcategories: ['oxford-button-down-shirt', 'slim-fit-chino-pants', 'floral-summer-dress', 'classic-leather-jacket', 'nike-air-max-270-react'] },
-    { name: 'Home & Garden', slug: 'home-garden', subcategories: ['scandinavian-sectional-sofa', 'queen-platform-bed-frame', 'professional-chef-knife-set', 'smart-air-fryer-oven', 'modern-floor-lamp-led', 'electric-standing-desk'] },
-    { name: 'Sports & Outdoors', slug: 'sports-outdoors', subcategories: ['adjustable-dumbbell-set', 'premium-yoga-mat-6mm', '4-person-weatherproof-tent', 'trail-running-shoes'] },
-  ];
-
   return (
     <>
       <Seo
@@ -34,18 +29,47 @@ export default function Sitemap() {
         <h2>Categories & Products</h2>
         {categories.map(cat => (
           <div key={cat.slug}>
-            <h3><Link to={`/products/${cat.slug}`} title={`Browse ${cat.name}`}>{cat.name}</Link></h3>
-            <ul>
-              {cat.subcategories.map(sub => (
-                <li key={sub}>
-                  <Link to={`/products/${sub}`} title={`View ${sub.replace(/-/g, ' ')}`}>
-                    {sub.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <h3>
+              <Link to={`/products/${cat.slug}`} title={`Browse ${cat.name} — ${cat.description}`}>
+                {cat.name}
+              </Link>
+            </h3>
+            {cat.subcategories?.length > 0 && (
+              <>
+                <p className="sitemap-desc">{cat.description}</p>
+                <ul>
+                  {cat.subcategories.map(sub => (
+                    <li key={sub.slug}>
+              <Link
+                  to={`/products/${cat.slug}/${sub.slug}`}
+                  title={`${sub.name} — ${sub.description}`}
+                >
+                  {sub.name}
+                </Link>
+                {sub.description && <p className="sitemap-desc">{sub.description}</p>}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </div>
         ))}
+      </section>
+
+      <section>
+        <h2>All Products ({products.length})</h2>
+        <ul>
+          {products.map(p => (
+            <li key={p.id}>
+              <Link
+                to={`/products/${p.categorySlug}/${p.slug}`}
+                title={`${p.name} — $${p.price} — ${p.brand}`}
+              >
+                {p.name} — ${p.price} ({p.brand})
+              </Link>
+            </li>
+          ))}
+        </ul>
       </section>
     </>
   );

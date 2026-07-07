@@ -1,12 +1,6 @@
 import { Link } from 'react-router-dom';
 import Seo from '../components/Seo';
-
-const categories = [
-  { name: 'Electronics', slug: 'electronics', img: 'https://picsum.photos/seed/electronics-cat/400/300', count: 6 },
-  { name: 'Clothing', slug: 'clothing', img: 'https://picsum.photos/seed/clothing-cat/400/300', count: 5 },
-  { name: 'Home & Garden', slug: 'home-garden', img: 'https://picsum.photos/seed/home-cat/400/300', count: 6 },
-  { name: 'Sports & Outdoors', slug: 'sports-outdoors', img: 'https://picsum.photos/seed/sports-cat/400/300', count: 4 },
-];
+import categories from '../data/categories.json';
 
 export default function Products() {
   return (
@@ -25,18 +19,18 @@ export default function Products() {
           <Link
             key={cat.slug}
             to={`/products/${cat.slug}`}
-            title={`View all ${cat.name} products (${cat.count} items)`}
+            title={`View all ${cat.name} products — ${cat.description}`}
             className="category-card"
           >
             <img
-              src={cat.img}
-              alt={`${cat.name} — ${cat.count} products available`}
+              src={cat.image}
+              alt={`${cat.name} — ${cat.description}`}
               loading="lazy"
               width="400"
               height="300"
             />
             <h2>{cat.name}</h2>
-            <p>{cat.count} products</p>
+            <p>{cat.subcategories?.length || 0} subcategories</p>
           </Link>
         ))}
       </div>

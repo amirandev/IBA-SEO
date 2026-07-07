@@ -1,15 +1,10 @@
 import categories from '../data/categories.json';
 import products from '../data/products.json';
 
-export default function Home() {
-  const featured = products.slice(0, 4);
-
+export default function Products() {
   return (
     <div>
-      <div className="hero">
-        <h1>Welcome</h1>
-        <p>This is our app. Here are some categories and products.</p>
-      </div>
+      <h1>All Products</h1>
 
       <h2>Categories</h2>
       <div className="grid">
@@ -17,21 +12,21 @@ export default function Home() {
           <div key={i} className="card">
             <img src={cat.image} />
             <h3>{cat.name}</h3>
-            <p>Click here for more</p>
-            <button onClick={() => alert('navigate to ' + cat.slug)}>View</button>
+            <button onClick={() => alert('category: ' + cat.slug)}>View</button>
           </div>
         ))}
       </div>
 
-      <h2>Featured Products</h2>
+      <h2>Products</h2>
       <div className="grid">
-        {featured.map((p, i) => (
+        {products.map((p, i) => (
           <div key={i} className="card">
             <img src={p.images[0]} />
             <h3>{p.name}</h3>
-            <p>${p.price}</p>
-            <p>Click here</p>
-            <button onClick={() => alert('navigate to ' + p.slug)}>Details</button>
+            <p>Brand: {p.brand}</p>
+            <p>Price: ${p.price}</p>
+            <p>Rating: {p.rating}</p>
+            <button onClick={() => alert('product: ' + p.slug)}>Details</button>
           </div>
         ))}
       </div>

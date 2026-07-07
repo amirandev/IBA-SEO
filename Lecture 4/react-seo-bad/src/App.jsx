@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Products from './pages/Products';
 import './App.css';
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       case 'home': return <Home />;
       case 'about': return <About />;
       case 'contact': return <Contact />;
+      case 'products': return <Products />;
       default: return <Home />;
     }
   };
@@ -22,6 +24,7 @@ export default function App() {
         <div className="nav-title">My App</div>
         <div className="nav-links">
           <button onClick={() => setPage('home')}>Home</button>
+          <button onClick={() => setPage('products')}>Products</button>
           <button onClick={() => setPage('about')}>About</button>
           <button onClick={() => setPage('contact')}>Contact</button>
         </div>

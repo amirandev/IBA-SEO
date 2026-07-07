@@ -1,0 +1,746 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook Pro 16-inch M3 Max",
+    "slug": "macbook-pro-16-m3-max",
+    "description": "Apple MacBook Pro with M3 Max chip, 36GB unified memory, 1TB SSD, Space Black. 16.2-inch Liquid Retina XDR display with ProMotion technology. Up to 22 hours of battery life.",
+    "price": 3499.99,
+    "currency": "USD",
+    "brand": "Apple",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 101,
+    "subcategorySlug": "laptops",
+    "images": [
+      "https://picsum.photos/seed/macbook1/800/800",
+      "https://picsum.photos/seed/macbook2/800/800",
+      "https://picsum.photos/seed/macbook3/800/800"
+    ],
+    "features": ["M3 Max Chip", "36GB RAM", "1TB SSD", "16.2-inch XDR Display", "22h Battery", "HDMI 2.1"],
+    "rating": 4.8,
+    "reviewCount": 1245,
+    "reviews": [
+      { "id": 1001, "author": "John D.", "rating": 5, "title": "Absolute beast of a machine", "text": "The M3 Max is incredibly fast. Handles my 4K video editing like butter. Battery life is phenomenal.", "date": "2025-06-15" },
+      { "id": 1002, "author": "Sarah K.", "rating": 5, "title": "Worth every penny", "text": "Upgraded from Intel MacBook and the difference is night and day. The display is gorgeous.", "date": "2025-05-28" },
+      { "id": 1003, "author": "Mike R.", "rating": 4, "title": "Great but expensive", "text": "Incredible performance but very pricey. Make sure you actually need this much power before buying.", "date": "2025-04-10" },
+      { "id": 1004, "author": "Emily W.", "rating": 5, "title": "Perfect for developers", "text": "As a software engineer, this is the best laptop I've ever owned. Build quality is unmatched.", "date": "2025-06-01" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dell XPS 15 OLED",
+    "slug": "dell-xps-15-oled",
+    "description": "Dell XPS 15 featuring 15.6-inch 3.5K OLED InfinityEdge display, Intel Core i9-13900H, 32GB DDR5 RAM, 1TB SSD, NVIDIA GeForce RTX 4070.",
+    "price": 2499.99,
+    "currency": "USD",
+    "brand": "Dell",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 101,
+    "subcategorySlug": "laptops",
+    "images": [
+      "https://picsum.photos/seed/dellxps1/800/800",
+      "https://picsum.photos/seed/dellxps2/800/800",
+      "https://picsum.photos/seed/dellxps3/800/800"
+    ],
+    "features": ["i9-13900H", "32GB DDR5", "1TB SSD", "RTX 4070", "3.5K OLED", "InfinityEdge"],
+    "rating": 4.5,
+    "reviewCount": 876,
+    "reviews": [
+      { "id": 2001, "author": "Alex T.", "rating": 5, "title": "Stunning display", "text": "The OLED screen is absolutely breathtaking. Perfect for photo editing.", "date": "2025-05-20" },
+      { "id": 2002, "author": "Jessica P.", "rating": 4, "title": "Great Windows laptop", "text": "Best Windows laptop I've used. Gets warm under heavy load but performs well.", "date": "2025-04-15" },
+      { "id": 2003, "author": "Tom H.", "rating": 5, "title": "Upgraded from XPS 13", "text": "The extra screen size and OLED make a huge difference. Highly recommend.", "date": "2025-03-22" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ThinkPad X1 Carbon Gen 11",
+    "slug": "thinkpad-x1-carbon-gen-11",
+    "description": "Lenovo ThinkPad X1 Carbon Gen 11 with Intel Core i7-1365U, 16GB RAM, 512GB SSD, 14-inch 2.8K OLED display, ultralight 1.12kg carbon fiber chassis.",
+    "price": 1899.99,
+    "currency": "USD",
+    "brand": "Lenovo",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 101,
+    "subcategorySlug": "laptops",
+    "images": [
+      "https://picsum.photos/seed/thinkpad1/800/800",
+      "https://picsum.photos/seed/thinkpad2/800/800"
+    ],
+    "features": ["i7-1365U", "16GB RAM", "512GB SSD", "2.8K OLED", "1.12kg", "Carbon Fiber"],
+    "rating": 4.6,
+    "reviewCount": 543,
+    "reviews": [
+      { "id": 3001, "author": "David L.", "rating": 5, "title": "Business laptop king", "text": "Lightest laptop I've ever owned. The keyboard is simply the best in class.", "date": "2025-06-10" },
+      { "id": 3002, "author": "Anna M.", "rating": 4, "title": "Solid business machine", "text": "Great build quality, excellent keyboard, and the OLED option is fantastic.", "date": "2025-05-05" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "iPhone 16 Pro Max",
+    "slug": "iphone-16-pro-max",
+    "description": "Apple iPhone 16 Pro Max with A18 Pro chip, 6.9-inch Super Retina XDR OLED display, 48MP main + 48MP ultra wide + 12MP telephoto camera system, Titanium design.",
+    "price": 1499.99,
+    "currency": "USD",
+    "brand": "Apple",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 102,
+    "subcategorySlug": "smartphones",
+    "images": [
+      "https://picsum.photos/seed/iphone1/800/800",
+      "https://picsum.photos/seed/iphone2/800/800",
+      "https://picsum.photos/seed/iphone3/800/800"
+    ],
+    "features": ["A18 Pro", "6.9-inch OLED", "48MP Triple Camera", "Titanium", "5G", "USB-C"],
+    "rating": 4.7,
+    "reviewCount": 3456,
+    "reviews": [
+      { "id": 4001, "author": "Chris B.", "rating": 5, "title": "Best iPhone yet", "text": "The camera system is incredible. Night mode photos look like professional shots.", "date": "2025-06-20" },
+      { "id": 4002, "author": "Megan S.", "rating": 5, "title": "Worth the upgrade", "text": "Upgraded from 14 Pro Max. Battery life is noticeably better and the titanium feels premium.", "date": "2025-06-18" },
+      { "id": 4003, "author": "Ryan T.", "rating": 4, "title": "Great phone, heavy price", "text": "Amazing device but the price keeps going up. The camera zoom is a game changer.", "date": "2025-05-30" },
+      { "id": 4004, "author": "Laura K.", "rating": 5, "title": "Camera is phenomenal", "text": "The 5x optical zoom is incredible. Video quality is best in class.", "date": "2025-06-12" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy S25 Ultra",
+    "slug": "samsung-galaxy-s25-ultra",
+    "description": "Samsung Galaxy S25 Ultra with Snapdragon 8 Gen 4, 6.9-inch Dynamic AMOLED 2X 120Hz, 200MP main camera, S Pen, 5000mAh battery, 256GB storage.",
+    "price": 1399.99,
+    "currency": "USD",
+    "brand": "Samsung",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 102,
+    "subcategorySlug": "smartphones",
+    "images": [
+      "https://picsum.photos/seed/galaxy1/800/800",
+      "https://picsum.photos/seed/galaxy2/800/800",
+      "https://picsum.photos/seed/galaxy3/800/800"
+    ],
+    "features": ["Snapdragon 8 Gen 4", "200MP Camera", "S Pen", "120Hz AMOLED", "5000mAh", "IP68"],
+    "rating": 4.6,
+    "reviewCount": 2890,
+    "reviews": [
+      { "id": 5001, "author": "Kevin J.", "rating": 5, "title": "S Pen makes the difference", "text": "The S Pen integration is seamless. Great for note-taking and drawing.", "date": "2025-06-15" },
+      { "id": 5002, "author": "Rachel G.", "rating": 4, "title": "Camera beast", "text": "200MP photos are incredibly detailed. Low light performance is improved.", "date": "2025-05-25" },
+      { "id": 5003, "author": "Mark W.", "rating": 5, "title": "Best Android phone", "text": "One UI is smooth and feature-rich. The display is the best I've seen.", "date": "2025-06-05" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Google Pixel 10 Pro",
+    "slug": "google-pixel-10-pro",
+    "description": "Google Pixel 10 Pro with Tensor G5 chip, 6.7-inch LTPO OLED 120Hz, 50MP main + 48MP ultra wide + 48MP telephoto, pure Android experience.",
+    "price": 1099.99,
+    "currency": "USD",
+    "brand": "Google",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 102,
+    "subcategorySlug": "smartphones",
+    "images": [
+      "https://picsum.photos/seed/pixel1/800/800",
+      "https://picsum.photos/seed/pixel2/800/800"
+    ],
+    "features": ["Tensor G5", "6.7-inch OLED", "Triple Camera", "Pure Android", "AI Features", "5G"],
+    "rating": 4.4,
+    "reviewCount": 1567,
+    "reviews": [
+      { "id": 6001, "author": "Sophia A.", "rating": 5, "title": "Pure Android bliss", "text": "Best camera software I've ever used. The AI features are genuinely useful.", "date": "2025-06-22" },
+      { "id": 6002, "author": "Daniel C.", "rating": 4, "title": "Great value", "text": "For the price, this is the best camera phone. Google's software magic is real.", "date": "2025-05-18" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sony WH-1000XM6 Wireless Headphones",
+    "slug": "sony-wh-1000xm6-wireless-headphones",
+    "description": "Sony WH-1000XM6 industry-leading noise cancelling wireless headphones with 40-hour battery, Hi-Res Audio, LDAC, Adaptive Sound Control, and multipoint connection.",
+    "price": 399.99,
+    "currency": "USD",
+    "brand": "Sony",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 103,
+    "subcategorySlug": "headphones",
+    "images": [
+      "https://picsum.photos/seed/sonyh1/800/800",
+      "https://picsum.photos/seed/sonyh2/800/800",
+      "https://picsum.photos/seed/sonyh3/800/800"
+    ],
+    "features": ["Noise Cancelling", "40h Battery", "Hi-Res Audio", "LDAC", "Multipoint", "Adaptive Sound"],
+    "rating": 4.7,
+    "reviewCount": 4532,
+    "reviews": [
+      { "id": 7001, "author": "Nathan P.", "rating": 5, "title": "Best noise cancelling on the market", "text": "These are incredible. The noise cancelling is like entering a bubble of silence.", "date": "2025-06-25" },
+      { "id": 7002, "author": "Olivia R.", "rating": 5, "title": "Upgraded from XM4s", "text": "Noticeable improvement in comfort and sound quality. Worth the upgrade.", "date": "2025-06-10" },
+      { "id": 7003, "author": "James M.", "rating": 4, "title": "Excellent for travel", "text": "Perfect for flights. Battery life is amazing and the carrying case is compact.", "date": "2025-05-20" },
+      { "id": 7004, "author": "Ella D.", "rating": 5, "title": "Sound quality is superb", "text": "Crystal clear audio with deep bass. LDAC makes a noticeable difference.", "date": "2025-04-15" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "AirPods Pro 3rd Generation",
+    "slug": "airpods-pro-3rd-generation",
+    "description": "Apple AirPods Pro 3 with H3 chip, adaptive audio, active noise cancellation, transparency mode, USB-C, MagSafe charging case with Find My and built-in speaker.",
+    "price": 269.99,
+    "currency": "USD",
+    "brand": "Apple",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 103,
+    "subcategorySlug": "headphones",
+    "images": [
+      "https://picsum.photos/seed/airpods1/800/800",
+      "https://picsum.photos/seed/airpods2/800/800"
+    ],
+    "features": ["H3 Chip", "Adaptive Audio", "Active Noise Cancellation", "Transparency", "USB-C", "Find My"],
+    "rating": 4.5,
+    "reviewCount": 6789,
+    "reviews": [
+      { "id": 8001, "author": "Isabella F.", "rating": 5, "title": "Perfect for Apple ecosystem", "text": "Seamless switching between devices. The adaptive audio is magical.", "date": "2025-06-28" },
+      { "id": 8002, "author": "Lucas G.", "rating": 4, "title": "Great earbuds", "text": "Sound quality is excellent and noise cancellation is top tier.", "date": "2025-06-01" },
+      { "id": 8003, "author": "Mia S.", "rating": 5, "title": "Best AirPods yet", "text": "The new Find My case is a lifesaver. Sound quality is noticeably better.", "date": "2025-05-15" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Apple Watch Ultra 3",
+    "slug": "apple-watch-ultra-3",
+    "description": "Apple Watch Ultra 3 with 49mm titanium case, precision dual-frequency GPS, 36-hour battery, Action button, diving depth gauge, and advanced health sensors.",
+    "price": 899.99,
+    "currency": "USD",
+    "brand": "Apple",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 104,
+    "subcategorySlug": "smartwatches",
+    "images": [
+      "https://picsum.photos/seed/awu1/800/800",
+      "https://picsum.photos/seed/awu2/800/800"
+    ],
+    "features": ["49mm Titanium", "Dual GPS", "36h Battery", "Action Button", "Depth Gauge", "Health Sensors"],
+    "rating": 4.8,
+    "reviewCount": 2345,
+    "reviews": [
+      { "id": 9001, "author": "Ethan H.", "rating": 5, "title": "Built for adventure", "text": "Took this diving to 30m and it performed flawlessly. Battery lasts forever.", "date": "2025-06-20" },
+      { "id": 9002, "author": "Ava W.", "rating": 5, "title": "Tough as nails", "text": "The titanium case is scratch-free after months of hiking and climbing.", "date": "2025-05-30" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Premium Oxford Button-Down Shirt",
+    "slug": "premium-oxford-button-down-shirt",
+    "description": "Classic premium Oxford cotton button-down shirt — 100% Egyptian cotton, mother-of-pearl buttons, tailored fit. Perfect for business casual and formal occasions.",
+    "price": 89.99,
+    "currency": "USD",
+    "brand": "Brooks Brothers",
+    "categoryId": 2,
+    "categorySlug": "clothing",
+    "subcategoryId": 201,
+    "subcategorySlug": "mens-clothing",
+    "images": [
+      "https://picsum.photos/seed/oxford1/800/800",
+      "https://picsum.photos/seed/oxford2/800/800",
+      "https://picsum.photos/seed/oxford3/800/800"
+    ],
+    "features": ["100% Egyptian Cotton", "Mother-of-Pearl Buttons", "Tailored Fit", "Machine Washable", "Wrinkle Resistant"],
+    "rating": 4.3,
+    "reviewCount": 876,
+    "reviews": [
+      { "id": 1101, "author": "William B.", "rating": 5, "title": "Timeless quality", "text": "The fabric feels luxurious and the fit is perfect. My go-to shirt for meetings.", "date": "2025-06-12" },
+      { "id": 1102, "author": "James K.", "rating": 4, "title": "Great shirt", "text": "Quality is excellent. Sizing runs slightly large, order one size down.", "date": "2025-05-22" }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Slim Fit Stretch Chino Pants",
+    "slug": "slim-fit-stretch-chino-pants",
+    "description": "Premium stretch chino pants with 4-way stretch fabric, moisture-wicking technology, and a modern slim fit. Comfortable enough for all-day wear.",
+    "price": 69.99,
+    "currency": "USD",
+    "brand": "Dockers",
+    "categoryId": 2,
+    "categorySlug": "clothing",
+    "subcategoryId": 201,
+    "subcategorySlug": "mens-clothing",
+    "images": [
+      "https://picsum.photos/seed/chino1/800/800",
+      "https://picsum.photos/seed/chino2/800/800"
+    ],
+    "features": ["4-Way Stretch", "Moisture Wicking", "Slim Fit", "Machine Washable", "Wrinkle Free"],
+    "rating": 4.4,
+    "reviewCount": 1203,
+    "reviews": [
+      { "id": 1201, "author": "Noah S.", "rating": 5, "title": "Comfortable and stylish", "text": "These are the most comfortable chinos I've ever worn. The stretch fabric is amazing.", "date": "2025-06-08" },
+      { "id": 1202, "author": "Liam R.", "rating": 4, "title": "Great value", "text": "Perfect for office wear. Fit true to size and the fabric breathes well.", "date": "2025-05-14" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Floral Summer Dress",
+    "slug": "floral-summer-dress",
+    "description": "Elegant floral print summer dress with A-line silhouette, adjustable waist tie, and breathable cotton fabric. Perfect for casual outings and beach vacations.",
+    "price": 59.99,
+    "currency": "USD",
+    "brand": "Zara",
+    "categoryId": 2,
+    "categorySlug": "clothing",
+    "subcategoryId": 202,
+    "subcategorySlug": "womens-clothing",
+    "images": [
+      "https://picsum.photos/seed/floraldress1/800/800",
+      "https://picsum.photos/seed/floraldress2/800/800",
+      "https://picsum.photos/seed/floraldress3/800/800"
+    ],
+    "features": ["A-Line Silhouette", "Adjustable Waist", "Breathable Cotton", "Floral Print", "Lightweight"],
+    "rating": 4.2,
+    "reviewCount": 654,
+    "reviews": [
+      { "id": 1301, "author": "Emma J.", "rating": 5, "title": "Perfect summer dress", "text": "The fabric is so light and breathable. Perfect for hot summer days.", "date": "2025-06-15" },
+      { "id": 1302, "author": "Sophie L.", "rating": 4, "title": "Beautiful print", "text": "The floral pattern is gorgeous and the fit is flattering. Runs slightly long.", "date": "2025-05-28" }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Classic Leather Jacket",
+    "slug": "classic-leather-jacket",
+    "description": "Genuine lambskin leather jacket with YKK zippers, quilted lining, and classic moto design. Features snap-button lapels and adjustable waist buckles.",
+    "price": 299.99,
+    "currency": "USD",
+    "brand": "AllSaints",
+    "categoryId": 2,
+    "categorySlug": "clothing",
+    "subcategoryId": 202,
+    "subcategorySlug": "womens-clothing",
+    "images": [
+      "https://picsum.photos/seed/leather1/800/800",
+      "https://picsum.photos/seed/leather2/800/800"
+    ],
+    "features": ["Genuine Lambskin", "YKK Zippers", "Quilted Lining", "Snap Lapels", "Adjustable Waist"],
+    "rating": 4.6,
+    "reviewCount": 432,
+    "reviews": [
+      { "id": 1401, "author": "Charlotte D.", "rating": 5, "title": "Iconic jacket", "text": "The leather is buttery soft and the fit is perfect. Worth every penny.", "date": "2025-06-20" },
+      { "id": 1402, "author": "Amelia P.", "rating": 4, "title": "Beautiful quality", "text": "Amazing quality leather. Takes a few wears to break in but becomes super comfortable.", "date": "2025-05-10" }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Nike Air Max 270 React",
+    "slug": "nike-air-max-270-react",
+    "description": "Nike Air Max 270 React with large Air unit, React foam midsole, mesh upper with synthetic overlays, and rubber outsole for maximum comfort and style.",
+    "price": 159.99,
+    "currency": "USD",
+    "brand": "Nike",
+    "categoryId": 2,
+    "categorySlug": "clothing",
+    "subcategoryId": 203,
+    "subcategorySlug": "shoes",
+    "images": [
+      "https://picsum.photos/seed/nike1/800/800",
+      "https://picsum.photos/seed/nike2/800/800",
+      "https://picsum.photos/seed/nike3/800/800"
+    ],
+    "features": ["React Foam", "Air Unit", "Mesh Upper", "Rubber Outsole", "Padded Collar"],
+    "rating": 4.5,
+    "reviewCount": 3456,
+    "reviews": [
+      { "id": 1501, "author": "Jackson T.", "rating": 5, "title": "Most comfortable sneakers", "text": "Like walking on clouds. The React foam combined with the Air unit is incredible.", "date": "2025-06-18" },
+      { "id": 1502, "author": "Aiden R.", "rating": 4, "title": "Great everyday shoe", "text": "Comfortable right out of the box. Style is on point.", "date": "2025-05-25" }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Scandinavian Sectional Sofa",
+    "slug": "scandinavian-sectional-sofa",
+    "description": "Modern L-shaped sectional sofa in premium linen fabric with high-density foam cushions, solid wood frame, and removable covers. Seats up to 4 people.",
+    "price": 1899.99,
+    "currency": "USD",
+    "brand": "IKEA",
+    "categoryId": 3,
+    "categorySlug": "home-garden",
+    "subcategoryId": 301,
+    "subcategorySlug": "furniture",
+    "images": [
+      "https://picsum.photos/seed/sofa1/800/800",
+      "https://picsum.photos/seed/sofa2/800/800"
+    ],
+    "features": ["L-Shaped", "Linen Fabric", "HD Foam Cushions", "Solid Wood Frame", "Removable Covers", "4-Seater"],
+    "rating": 4.3,
+    "reviewCount": 567,
+    "reviews": [
+      { "id": 1601, "author": "Harper W.", "rating": 5, "title": "Beautiful and comfortable", "text": "The linen fabric is so soft and the sofa looks exactly like the pictures.", "date": "2025-06-22" },
+      { "id": 1602, "author": "Evelyn M.", "rating": 4, "title": "Great addition to our living room", "text": "Took about 2 hours to assemble but the result is stunning. Very comfortable.", "date": "2025-05-30" }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Queen Size Platform Bed Frame",
+    "slug": "queen-size-platform-bed-frame",
+    "description": "Minimalist platform bed frame in walnut finish with built-in LED lighting, USB charging ports, and under-bed storage drawers. No box spring needed.",
+    "price": 799.99,
+    "currency": "USD",
+    "brand": "Wayfair",
+    "categoryId": 3,
+    "categorySlug": "home-garden",
+    "subcategoryId": 301,
+    "subcategorySlug": "furniture",
+    "images": [
+      "https://picsum.photos/seed/bedframe1/800/800",
+      "https://picsum.photos/seed/bedframe2/800/800",
+      "https://picsum.photos/seed/bedframe3/800/800"
+    ],
+    "features": ["Queen Size", "LED Lighting", "USB Ports", "Storage Drawers", "Walnut Finish", "No Box Spring"],
+    "rating": 4.1,
+    "reviewCount": 890,
+    "reviews": [
+      { "id": 1701, "author": "Benjamin C.", "rating": 4, "title": "Great value bed frame", "text": "The LED lighting is a nice touch. Storage drawers are perfect for extra linens.", "date": "2025-06-05" },
+      { "id": 1702, "author": "Lily N.", "rating": 5, "title": "Love the storage", "text": "The under-bed drawers are huge! Fits all my winter clothes easily.", "date": "2025-04-20" }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Professional Chef Knife Set",
+    "slug": "professional-chef-knife-set",
+    "description": "8-piece German stainless steel knife set with forged blades, ergonomic handles, and a hardwood storage block. Includes chef knife, bread knife, utility knife, and more.",
+    "price": 249.99,
+    "currency": "USD",
+    "brand": "Zwilling J.A. Henckels",
+    "categoryId": 3,
+    "categorySlug": "home-garden",
+    "subcategoryId": 302,
+    "subcategorySlug": "kitchen",
+    "images": [
+      "https://picsum.photos/seed/knife1/800/800",
+      "https://picsum.photos/seed/knife2/800/800"
+    ],
+    "features": ["German Steel", "8 Pieces", "Forged Blades", "Ergonomic Handles", "Hardwood Block", "Dishwasher Safe"],
+    "rating": 4.7,
+    "reviewCount": 2100,
+    "reviews": [
+      { "id": 1801, "author": "Henry F.", "rating": 5, "title": "Professional quality", "text": "These knives are razor sharp out of the box. The chef knife is perfectly balanced.", "date": "2025-06-28" },
+      { "id": 1802, "author": "Grace T.", "rating": 5, "title": "Worth the investment", "text": "After years of cheap knives, these are a revelation. Cooking is so much more enjoyable.", "date": "2025-06-15" }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Smart Air Fryer Oven",
+    "slug": "smart-air-fryer-oven",
+    "description": "12-in-1 smart air fryer oven with 10-quart capacity, Wi-Fi connectivity, voice control, 12 cooking presets, and dual convection fans for even cooking.",
+    "price": 199.99,
+    "currency": "USD",
+    "brand": "Cosori",
+    "categoryId": 3,
+    "categorySlug": "home-garden",
+    "subcategoryId": 302,
+    "subcategorySlug": "kitchen",
+    "images": [
+      "https://picsum.photos/seed/airfryer1/800/800",
+      "https://picsum.photos/seed/airfryer2/800/800",
+      "https://picsum.photos/seed/airfryer3/800/800"
+    ],
+    "features": ["12-in-1", "10 Quart", "Wi-Fi", "Voice Control", "12 Presets", "Dual Convection"],
+    "rating": 4.5,
+    "reviewCount": 4567,
+    "reviews": [
+      { "id": 1901, "author": "Jack L.", "rating": 5, "title": "Game changer in the kitchen", "text": "The app integration is fantastic. Can start dinner from my phone on the way home.", "date": "2025-06-25" },
+      { "id": 1902, "author": "Chloe B.", "rating": 4, "title": "Huge capacity", "text": "Can fit a whole chicken! The presets make cooking foolproof.", "date": "2025-05-20" },
+      { "id": 1903, "author": "Zoe M.", "rating": 5, "title": "Best air fryer ever", "text": "Food comes out perfectly crispy every time. The smart features are great.", "date": "2025-04-10" }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Modern Floor Lamp LED",
+    "slug": "modern-floor-lamp-led",
+    "description": "Sleek arc floor lamp with adjustable LED color temperature (2700K-6500K), dimmable brightness, touch control, and a marble base. Perfect for living room reading nook.",
+    "price": 149.99,
+    "currency": "USD",
+    "brand": "Brightech",
+    "categoryId": 3,
+    "categorySlug": "home-garden",
+    "subcategoryId": 303,
+    "subcategorySlug": "decor",
+    "images": [
+      "https://picsum.photos/seed/lamp1/800/800",
+      "https://picsum.photos/seed/lamp2/800/800"
+    ],
+    "features": ["Arc Design", "Adjustable Color Temp", "Dimmable", "Touch Control", "Marble Base", "LED"],
+    "rating": 4.4,
+    "reviewCount": 1234,
+    "reviews": [
+      { "id": 2001, "author": "Sebastian K.", "rating": 5, "title": "Beautiful design", "text": "The lamp looks like a piece of art. The adjustable color temperature is perfect for reading.", "date": "2025-06-18" },
+      { "id": 2002, "author": "Hannah W.", "rating": 4, "title": "Great ambiance", "text": "The warm light setting creates such a cozy atmosphere. Assembly was straightforward.", "date": "2025-05-22" }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Smart Garden Irrigation Kit",
+    "slug": "smart-garden-irrigation-kit",
+    "description": "Wi-Fi connected drip irrigation system with soil moisture sensors, weather-based scheduling, and app control. Covers up to 100 plants with adjustable drippers.",
+    "price": 129.99,
+    "currency": "USD",
+    "brand": "Rachio",
+    "categoryId": 3,
+    "categorySlug": "home-garden",
+    "subcategoryId": 304,
+    "subcategorySlug": "garden-outdoor",
+    "images": [
+      "https://picsum.photos/seed/irrigation1/800/800",
+      "https://picsum.photos/seed/irrigation2/800/800"
+    ],
+    "features": ["Wi-Fi Connected", "Soil Sensors", "Weather Based", "App Control", "100 Plants", "Adjustable Drippers"],
+    "rating": 4.2,
+    "reviewCount": 789,
+    "reviews": [
+      { "id": 2101, "author": "Owen D.", "rating": 5, "title": "Saved my garden", "text": "The soil sensors are incredibly accurate. My plants have never been healthier.", "date": "2025-06-30" },
+      { "id": 2102, "author": "Abigail R.", "rating": 4, "title": "Smart and efficient", "text": "Setup took about an hour but the app guides you through it. Water bill has gone down!", "date": "2025-05-28" }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Adjustable Dumbbell Set 5-52.5 lbs",
+    "slug": "adjustable-dumbbell-set-5-525lbs",
+    "description": "Space-saving adjustable dumbbell set that replaces 15 sets of weights. Quick-change dial mechanism from 5 to 52.5 lbs per dumbbell. Includes storage tray.",
+    "price": 349.99,
+    "currency": "USD",
+    "brand": "Bowflex",
+    "categoryId": 4,
+    "categorySlug": "sports-outdoors",
+    "subcategoryId": 401,
+    "subcategorySlug": "fitness-exercise",
+    "images": [
+      "https://picsum.photos/seed/dumbbell1/800/800",
+      "https://picsum.photos/seed/dumbbell2/800/800",
+      "https://picsum.photos/seed/dumbbell3/800/800"
+    ],
+    "features": ["5-52.5 lbs", "Quick Dial", "Replaces 15 Sets", "Storage Tray", "Compact Design"],
+    "rating": 4.6,
+    "reviewCount": 3456,
+    "reviews": [
+      { "id": 2201, "author": "Logan P.", "rating": 5, "title": "Best home gym investment", "text": "Saves so much space compared to having multiple dumbbells. The weight change is instant.", "date": "2025-06-20" },
+      { "id": 2202, "author": "Mason V.", "rating": 4, "title": "Great quality", "text": "Smooth weight adjustment and solid build. A bit pricey but worth it for the space savings.", "date": "2025-05-15" }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Yoga Mat Premium 6mm",
+    "slug": "yoga-mat-premium-6mm",
+    "description": "Extra thick 6mm yoga mat with alignment lines, non-slip TPE material, carrying strap, and eco-friendly construction. Perfect for yoga, pilates, and stretching.",
+    "price": 49.99,
+    "currency": "USD",
+    "brand": "Manduka",
+    "categoryId": 4,
+    "categorySlug": "sports-outdoors",
+    "subcategoryId": 401,
+    "subcategorySlug": "fitness-exercise",
+    "images": [
+      "https://picsum.photos/seed/yogamat1/800/800",
+      "https://picsum.photos/seed/yogamat2/800/800"
+    ],
+    "features": ["6mm Thick", "Alignment Lines", "Non-Slip TPE", "Carrying Strap", "Eco-Friendly"],
+    "rating": 4.4,
+    "reviewCount": 2345,
+    "reviews": [
+      { "id": 2301, "author": "Aria S.", "rating": 5, "title": "Perfect alignment lines", "text": "The alignment markings are so helpful for getting poses right. Great grip even when sweaty.", "date": "2025-06-22" },
+      { "id": 2302, "author": "Ella M.", "rating": 4, "title": "Comfortable and durable", "text": "Good cushioning for knees and joints. The strap makes it easy to carry to class.", "date": "2025-05-10" }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "4-Person Tent Weatherproof",
+    "slug": "4-person-tent-weatherproof",
+    "description": "Spacious 4-person camping tent with weatherproof flysheet, sealed seams, and bathtub floor. Features vestibule storage, mesh windows, and 2-minute setup design.",
+    "price": 219.99,
+    "currency": "USD",
+    "brand": "The North Face",
+    "categoryId": 4,
+    "categorySlug": "sports-outdoors",
+    "subcategoryId": 402,
+    "subcategorySlug": "camping-hiking",
+    "images": [
+      "https://picsum.photos/seed/tent1/800/800",
+      "https://picsum.photos/seed/tent2/800/800",
+      "https://picsum.photos/seed/tent3/800/800"
+    ],
+    "features": ["4-Person", "Weatherproof", "Bathtub Floor", "Vestibule", "Mesh Windows", "Quick Setup"],
+    "rating": 4.3,
+    "reviewCount": 1789,
+    "reviews": [
+      { "id": 2401, "author": "Carter B.", "rating": 5, "title": "Survived a storm", "text": "We got caught in a downpour and stayed completely dry. The bathtub floor works great.", "date": "2025-06-28" },
+      { "id": 2402, "author": "Scarlett H.", "rating": 4, "title": "Easy setup", "text": "Can set up in about 5 minutes by myself. Plenty of room for two adults and gear.", "date": "2025-05-20" }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Mountain Bike XC Pro",
+    "slug": "mountain-bike-xc-pro",
+    "description": "Full suspension mountain bike with 29-inch wheels, carbon fiber frame, Shimano XT drivetrain, 150mm Fox suspension, and hydraulic disc brakes.",
+    "price": 3499.99,
+    "currency": "USD",
+    "brand": "Trek",
+    "categoryId": 4,
+    "categorySlug": "sports-outdoors",
+    "subcategoryId": 403,
+    "subcategorySlug": "cycling",
+    "images": [
+      "https://picsum.photos/seed/bike1/800/800",
+      "https://picsum.photos/seed/bike2/800/800"
+    ],
+    "features": ["Carbon Frame", "29-inch Wheels", "Shimano XT", "Fox Suspension 150mm", "Hydraulic Disc Brakes", "Full Suspension"],
+    "rating": 4.7,
+    "reviewCount": 890,
+    "reviews": [
+      { "id": 2501, "author": "Dylan K.", "rating": 5, "title": "Trail monster", "text": "This bike eats technical trails for breakfast. The Fox suspension is incredible.", "date": "2025-06-25" },
+      { "id": 2502, "author": "Oscar N.", "rating": 5, "title": "Worth every dollar", "text": "The carbon frame is so light. Climbing has never been easier. A true race machine.", "date": "2025-06-01" }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Wireless Earbuds Pro",
+    "slug": "wireless-earbuds-pro",
+    "description": "Premium wireless earbuds with adaptive noise cancellation, 8-hour battery (32h with case), IPX5 waterproof rating, and customizable touch controls.",
+    "price": 179.99,
+    "currency": "USD",
+    "brand": "SoundCore",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 103,
+    "subcategorySlug": "headphones",
+    "images": [
+      "https://picsum.photos/seed/earbuds1/800/800",
+      "https://picsum.photos/seed/earbuds2/800/800"
+    ],
+    "features": ["Adaptive ANC", "8h Battery", "IPX5 Waterproof", "Touch Controls", "32h Case", "Wireless Charging"],
+    "rating": 4.3,
+    "reviewCount": 5678,
+    "reviews": [
+      { "id": 2601, "author": "Levi A.", "rating": 4, "title": "Great budget alternative", "text": "85% of the AirPods Pro experience at half the price. Sound quality is excellent.", "date": "2025-06-12" },
+      { "id": 2602, "author": "Riley C.", "rating": 5, "title": "Surprisingly good", "text": "Was skeptical at this price point but these are fantastic. Battery life is amazing.", "date": "2025-05-28" }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Electric Standing Desk",
+    "slug": "electric-standing-desk",
+    "description": "Motorized adjustable height standing desk with 60x30 inch bamboo desktop, dual motors, memory presets, and cable management tray. Height range 25-51 inches.",
+    "price": 599.99,
+    "currency": "USD",
+    "brand": "Fully",
+    "categoryId": 3,
+    "categorySlug": "home-garden",
+    "subcategoryId": 301,
+    "subcategorySlug": "furniture",
+    "images": [
+      "https://picsum.photos/seed/desk1/800/800",
+      "https://picsum.photos/seed/desk2/800/800",
+      "https://picsum.photos/seed/desk3/800/800"
+    ],
+    "features": ["Dual Motors", "60x30 Bamboo", "Memory Presets", "Cable Management", "25-51 inch Range"],
+    "rating": 4.5,
+    "reviewCount": 2345,
+    "reviews": [
+      { "id": 2701, "author": "Caleb W.", "rating": 5, "title": "Ergonomics done right", "text": "The transition between sitting and standing is smooth and quiet. Bamboo top is beautiful.", "date": "2025-06-30" },
+      { "id": 2702, "author": "Victoria L.", "rating": 4, "title": "Great desk", "text": "Dual motors are fast and strong. Assembly took about an hour with clear instructions.", "date": "2025-06-10" }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Instant Pot Duo Plus 8QT",
+    "slug": "instant-pot-duo-plus-8qt",
+    "description": "Instant Pot Duo Plus 8-quart 9-in-1 programmable pressure cooker, slow cooker, rice cooker, steamer, sauté pan, yogurt maker, warmer, sterilizer, and food warmer.",
+    "price": 129.99,
+    "currency": "USD",
+    "brand": "Instant Pot",
+    "categoryId": 3,
+    "categorySlug": "home-garden",
+    "subcategoryId": 302,
+    "subcategorySlug": "kitchen",
+    "images": [
+      "https://picsum.photos/seed/instantpot1/800/800",
+      "https://picsum.photos/seed/instantpot2/800/800"
+    ],
+    "features": ["9-in-1", "8 Quart", "Pressure Cooker", "Slow Cooker", "Rice Cooker", "Yogurt Maker"],
+    "rating": 4.6,
+    "reviewCount": 8901,
+    "reviews": [
+      { "id": 2801, "author": "Gabriel S.", "rating": 5, "title": "Kitchen essential", "text": "Use this almost daily. The pressure cooking feature cuts cooking time by 70%.", "date": "2025-06-15" },
+      { "id": 2802, "author": "Penelope F.", "rating": 5, "title": "Game changer for meal prep", "text": "Being able to cook dried beans in under an hour is amazing. So versatile.", "date": "2025-05-20" }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Smart Home Security Camera",
+    "slug": "smart-home-security-camera",
+    "description": "4K UHD outdoor security camera with AI person/vehicle/pet detection, night vision, two-way audio, weatherproof housing, and cloud storage subscription.",
+    "price": 99.99,
+    "currency": "USD",
+    "brand": "Ring",
+    "categoryId": 1,
+    "categorySlug": "electronics",
+    "subcategoryId": 104,
+    "subcategorySlug": "smartwatches",
+    "images": [
+      "https://picsum.photos/seed/camera1/800/800",
+      "https://picsum.photos/seed/camera2/800/800"
+    ],
+    "features": ["4K UHD", "AI Detection", "Night Vision", "Two-Way Audio", "Weatherproof", "Cloud Storage"],
+    "rating": 4.0,
+    "reviewCount": 4567,
+    "reviews": [
+      { "id": 2901, "author": "Samuel H.", "rating": 4, "title": "Great peace of mind", "text": "AI detection works well — rarely false alerts from leaves or animals anymore.", "date": "2025-06-20" },
+      { "id": 2902, "author": "Nora D.", "rating": 4, "title": "Easy setup", "text": "Setup took 10 minutes with the app. Video quality is excellent even at night.", "date": "2025-05-15" }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Trail Running Shoes Ultra Grip",
+    "slug": "trail-running-shoes-ultra-grip",
+    "description": "Lightweight trail running shoes with Vibram Megagrip outsole, Gore-Tex waterproof membrane, and rock plate protection. Designed for ultra-distance trail runs.",
+    "price": 189.99,
+    "currency": "USD",
+    "brand": "Salomon",
+    "categoryId": 2,
+    "categorySlug": "clothing",
+    "subcategoryId": 203,
+    "subcategorySlug": "shoes",
+    "images": [
+      "https://picsum.photos/seed/trailshoes1/800/800",
+      "https://picsum.photos/seed/trailshoes2/800/800",
+      "https://picsum.photos/seed/trailshoes3/800/800"
+    ],
+    "features": ["Vibram Megagrip", "Gore-Tex", "Rock Plate", "Ultra Cushioning", "Quicklace System"],
+    "rating": 4.6,
+    "reviewCount": 1456,
+    "reviews": [
+      { "id": 3001, "author": "Thomas G.", "rating": 5, "title": "Perfect for ultras", "text": "Completed a 50-mile race in these with zero foot issues. The grip on wet rocks is unreal.", "date": "2025-06-28" },
+      { "id": 3002, "author": "Grace P.", "rating": 4, "title": "Great trail shoes", "text": "Comfortable right out of the box. The Gore-Tex keeps feet dry in wet conditions.", "date": "2025-06-05" }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Smart Thermostat Programmable",
+    "slug": "smart-thermostat-programmable",
+    "description": "Wi-Fi smart thermostat with learning capabilities, geofencing, energy reports, and compatibility with Alexa, Google Home, and Apple HomeKit. Saves up to 23% on energy bills.",
+    "price": 79.99,
+    "currency": "USD",
+    "brand": "Ecobee",
+    "categoryId": 3,
+    "categorySlug": "home-garden",
+    "subcategoryId": 303,
+    "subcategorySlug": "decor",
+    "images": [
+      "https://picsum.photos/seed/thermostat1/800/800",
+      "https://picsum.photos/seed/thermostat2/800/800"
+    ],
+    "features": ["Wi-Fi", "Learning", "Geofencing", "Energy Reports", "Voice Compatible", "23% Savings"],
+    "rating": 4.2,
+    "reviewCount": 5678,
+    "reviews": [
+      { "id": 3101, "author": "Daniel M.", "rating": 5, "title": "Energy savings are real", "text": "My energy bill dropped by $30/month in the first month. The learning feature is great.", "date": "2025-06-25" },
+      { "id": 3102, "author": "Hazel K.", "rating": 4, "title": "Works great with Alexa", "text": "Setup was easy and integration with my smart home was seamless.", "date": "2025-05-30" }
+    ]
+  }
+]
