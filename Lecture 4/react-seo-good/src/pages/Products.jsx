@@ -1,36 +1,42 @@
-import { Link } from 'react-router-dom';
 import Seo from '../components/Seo';
+import products from '../data/products.json';
 import categories from '../data/categories.json';
+import { Link } from 'react-router-dom';
 
 export default function Products() {
   return (
     <>
       <Seo
         title="Products"
-        description="Browse all product categories — electronics, clothing, home & garden, sports and more."
-        keywords="products, categories, shop, buy online"
+        description="Browse all products — electronics, clothing, home & garden, sports. {products.length} items available."
+        keywords="products, shop, buy online, all items"
         path="/products"
       />
 
-      <h1>All Categories</h1>
+      <h1>All Products ({products.length})</h1>
 
       <div className="category-grid">
-        {categories.map(cat => (
+        {products.map(p => (
           <Link
-            key={cat.slug}
-            to={`/products/${cat.slug}`}
-            title={`View all ${cat.name} products — ${cat.description}`}
+            key={p.id}
+            to={`/products/${p.categorySlug}/${p.slug}`}
+            title={`${p.name} by ${p.brand} — $${p.price} — ${p.description?.substring(0, 80)}`}
             className="category-card"
           >
             <img
-              src={cat.image}
-              alt={`${cat.name} — ${cat.description}`}
+              src={p.images[0]}
+              alt={`${p.name} — ${p.brand} — ${p.description?.substring(0, 60)}`}
               loading="lazy"
               width="400"
-              height="300"
+              height="400"
             />
-            <h2>{cat.name}</h2>
-            <p>{cat.subcategories?.length || 0} subcategories</p>
+            <h2>{p.name}</h2>
+            <p className="brand">{p.brand}</p>
+            <p className="price">${p.price.toFixed(2)}</p>
+            <p className="rating">
+              {'★'.repeat(Math.round(p.rating))}{'☆'.repeat(5 - Math.round(p.rating))}
+              {' '}{p.rating} ({p.reviewCount})
+            </p>
           </Link>
         ))}
       </div>

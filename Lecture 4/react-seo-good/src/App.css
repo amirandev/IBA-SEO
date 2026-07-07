@@ -50,6 +50,19 @@ nav[aria-label="Breadcrumb"] span[aria-current="page"] { color: #666; }
 .review { border: 1px solid #e0e0e0; border-radius: 6px; padding: 12px; margin-bottom: 12px; background: white; }
 .review-author { margin-bottom: 4px; }
 
+/* Categories page with sidebar */
+.categories-layout { display: flex; gap: 24px; align-items: flex-start; }
+.categories-sidebar { flex: 0 0 220px; position: sticky; top: 20px; background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 16px; }
+.categories-sidebar h2 { margin-top: 0; font-size: 1.1rem; }
+.categories-sidebar ul { list-style: none; padding: 0; margin: 0; }
+.categories-sidebar li { margin-bottom: 4px; }
+.categories-sidebar a { display: flex; justify-content: space-between; padding: 6px 8px; border-radius: 4px; text-decoration: none; color: #333; }
+.categories-sidebar a:hover { background: #e8f0fe; color: #1a73e8; }
+.cat-count { color: #999; font-size: 0.85rem; }
+.sidebar-total { margin-top: 12px; padding-top: 12px; border-top: 1px solid #e0e0e0; font-size: 0.85rem; color: #666; }
+.categories-main { flex: 1; min-width: 0; }
+@media (max-width: 720px) { .categories-layout { flex-direction: column; } .categories-sidebar { position: static; width: 100%; } }
+
 /* Sitemap */
 .sitemap-desc { color: #555; font-size: 0.9rem; margin-bottom: 8px; }
 

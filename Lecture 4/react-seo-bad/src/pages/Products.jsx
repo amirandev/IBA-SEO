@@ -1,23 +1,9 @@
-import categories from '../data/categories.json';
 import products from '../data/products.json';
 
 export default function Products() {
   return (
     <div>
-      <h1>All Products</h1>
-
-      <h2>Categories</h2>
-      <div className="grid">
-        {categories.map((cat, i) => (
-          <div key={i} className="card">
-            <img src={cat.image} />
-            <h3>{cat.name}</h3>
-            <button onClick={() => alert('category: ' + cat.slug)}>View</button>
-          </div>
-        ))}
-      </div>
-
-      <h2>Products</h2>
+      <h1>All Products ({products.length})</h1>
       <div className="grid">
         {products.map((p, i) => (
           <div key={i} className="card">
